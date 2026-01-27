@@ -116,7 +116,6 @@ nodeDriverRegistrar:
   healthPort: 9809
   livenessProbe:
     enabled: false
-    path: /healthz
     initialDelaySeconds: 20
     timeoutSeconds: 10
     periodSeconds: 5
